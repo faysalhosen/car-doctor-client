@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import person from "../../assets/images/about_us/person.jpg";
 import parts from "../../assets/images/about_us/parts.jpg";
 
@@ -30,7 +29,7 @@ const AboutUs = () => {
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <button className="btn bg-[#FF3811] text-white hover:text-black">Get Started</button>
+          <button className="btn bg-[#FF3811] text-white">Get Started</button>
         </div>
       </div>
     </div>
