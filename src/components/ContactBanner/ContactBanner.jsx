@@ -1,15 +1,10 @@
-
 import {AiOutlineSchedule } from "react-icons/ai";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaMapMarkedAlt } from "react-icons/fa";
 const ContactBanner = () => {
   return (
-    <div>
-    <div>
-      <h1>hello</h1>
-    </div>
-
-     <div className="flex items-center justify-around rounded-lg py-14 bg-black">
+  
+     <div className="flex items-center justify-around rounded-lg py-14 bg-black my-20">
       <div className="flex items-center gap-4 text-white">
         <AiOutlineSchedule size={35} className="text-[#FF3811]"/>
       <div>
@@ -32,9 +27,10 @@ const ContactBanner = () => {
       </div>
       </div>
      </div>
-     </div>
-
+    
   )
 }
 
 export default ContactBanner
+
+
